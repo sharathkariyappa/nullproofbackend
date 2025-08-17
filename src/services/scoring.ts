@@ -1,6 +1,6 @@
 import axios from "axios";
-import type { GitHubStats } from "./github.js";
-import type { OnchainStats } from "./onchain.js";
+import type { GitHubStats } from "./github";
+import type { OnchainStats } from "./onchain";
 
 /** Simple local baseline you can replace with a real model */
  

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { requireGitHub } from "../middleware/auth.js";
-import { fetchGitHubContributorData } from "../services/github.js";
+import { requireGitHub } from "../middleware/auth";
+import { fetchGitHubContributorData } from "../services/github";
 
 export const githubRouter = Router();
 

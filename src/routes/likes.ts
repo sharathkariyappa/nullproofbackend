@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { db } from "../firebase.js";
+import { db } from "../firebase";
 import { Timestamp } from "firebase-admin/firestore";
 
 const router = express.Router();
