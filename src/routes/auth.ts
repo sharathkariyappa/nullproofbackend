@@ -1,7 +1,7 @@
 import { Router } from "express";
 import axios from "axios";
-import { cfg } from "../config";
-import { cookieOptions } from "../middleware/auth";
+import { cfg } from "../config.js";
+import { cookieOptions } from "../middleware/auth.js";
 
 export const authRouter = Router();
 

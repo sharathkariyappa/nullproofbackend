@@ -1,6 +1,6 @@
 // src/routes/earlyAccess.ts
 import { Router } from "express";
-import { db } from "../firebase";
+import { db } from "../firebase.js";
 
 export const earlyAccessRouter = Router();
 

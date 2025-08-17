@@ -2,14 +2,14 @@ import express from "express";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import rateLimit from "express-rate-limit";
-import { cfg } from "./config";
-import { authRouter } from "./routes/auth";
-import { githubRouter } from "./routes/github";
-import { onchainRouter } from "./routes/onchain";
-import { scoreRouter } from "./routes/score";
-import { leaderboardRouter } from "./routes/leaderboard";
-import { earlyAccessRouter } from "./routes/earlyaccess";
-import { likesRouter } from "./routes/likes";
+import { cfg } from "./config.js";
+import { authRouter } from "./routes/auth.js";
+import { githubRouter } from "./routes/github.js";
+import { onchainRouter } from "./routes/onchain.js";
+import { scoreRouter } from "./routes/score.js";
+import { leaderboardRouter } from "./routes/leaderboard.js";
+import { earlyAccessRouter } from "./routes/earlyaccess.js";
+import { likesRouter } from "./routes/likes.js";
 
 const app = express();
 

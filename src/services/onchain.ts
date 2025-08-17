@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import axios from "axios";
-import { cfg } from "../config";
+import { cfg } from "../config.js";
 
 const provider = new ethers.JsonRpcProvider(cfg.rpcHttpUrl);
 

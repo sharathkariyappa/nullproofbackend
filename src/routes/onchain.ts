@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { fetchOnchainStats } from "../services/onchain";
+import { fetchOnchainStats } from "../services/onchain.js";
 
 export const onchainRouter = Router();
 

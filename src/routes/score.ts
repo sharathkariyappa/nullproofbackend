@@ -1,8 +1,8 @@
 import { Router } from "express";
-import { requireGitHub } from "../middleware/auth";
-import { fetchGitHubContributorData } from "../services/github";
-import { fetchOnchainStats } from "../services/onchain";
-import { flaskModelScore } from "../services/scoring";
+import { requireGitHub } from "../middleware/auth.js";
+import { fetchGitHubContributorData } from "../services/github.js";
+import { fetchOnchainStats } from "../services/onchain.js";
+import { flaskModelScore } from "../services/scoring.js";
 
 export const scoreRouter = Router();
 
